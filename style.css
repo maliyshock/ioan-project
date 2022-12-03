@@ -1,0 +1,256 @@
+header *{
+    display: block;
+    margin:0px;
+    padding: 0px;
+}
+
+header:hover{
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+
+}
+header{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition:0.5s;
+    border-radius: 25px;
+    width:450px;
+    height:600px;
+    margin-left:30%;
+    margin-top:100px;
+    overflow:hidden;
+}
+.background-color{
+    background-color: bisque;
+    width:450px;
+    height:140px;
+    border-radius: 25px 25px 0 0;
+    position: absolute;
+    background: url(milad-fakurian-HE1_K4_-QT8-unsplash\ 1.png);
+
+}
+.logo{
+    border: 5px solid white;
+    margin-top:90px;
+    position: absolute;
+    margin-left:160px;
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    overflow: hidden;
+
+}
+.logo-img{
+    width:100px;
+    height:100px;
+}
+.clon-logo{
+
+    height:200px;
+}
+.name{
+    font-family: 'DM Sans';
+    font-style: normal;
+
+    font-size:x-large;
+    margin-left:160px;
+
+}
+.options{
+    text-align: center;
+   font-size:medium;
+   color:gray;
+   
+}
+.social{
+    margin-left:5px;
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    background-color: gray;
+    display:inline-block;
+    margin-top:10px;
+}
+.logo-more{
+    margin-left:115px;
+}
+
+.portfolio{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50px;
+    padding:1px;
+    width:300px;
+    height:40px;
+    margin-left:75px;
+}
+.portfolio *{
+    display:inline-block;
+}
+.portfolio .own-logo{
+    border-radius: 100%;
+    width:20px;
+    height:20px;
+    background-color: bisque;
+    margin-top:10px;
+    margin-left:10px;
+}
+.portfolio .text{
+   position: absolute;
+   margin-top:10px;
+    margin-left:10px;
+}
+.portfolio .link{
+    position: absolute;
+    border-radius: 100%;
+    margin-top:8px;
+     margin-left:200px;
+     width:25px;
+     height:25px;
+     background-color:gray;
+}
+.articles{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50px;
+    padding:1px;
+    width:300px;
+    height:40px;
+    margin-left:75px;
+}
+.articles *{
+    display:inline-block;
+}
+.articles .own-logo{
+    border-radius: 100%;
+    width:20px;
+    height:20px;
+    background-color: blue;
+    margin-top:10px;
+    margin-left:10px;
+}
+.articles .text{
+   position: absolute;
+   margin-top:10px;
+    margin-left:10px;
+}
+.articles .link{
+    position: absolute;
+    border-radius: 100%;
+    margin-top:8px;
+     margin-left:200px;
+     width:25px;
+     height:25px;
+     background-color:gray;
+}
+.podcast{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50px;
+    padding:1px;
+    width:300px;
+    height:40px;
+    margin-left:75px;
+}
+.podcast *{
+    display:inline-block;
+}
+.podcast .own-logo{
+    border-radius: 100%;
+    width:20px;
+    height:20px;
+    background-color: red;
+    margin-top:10px;
+    margin-left:10px;
+}
+.podcast .text{
+   position: absolute;
+   margin-top:10px;
+    margin-left:10px;
+}
+.podcast .link{
+    position: absolute;
+    border-radius: 100%;
+    margin-top:8px;
+     margin-left:200px;
+     width:25px;
+     height:25px;
+     background-color:gray;
+}
+.store{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50px;
+    padding:1px;
+    width:300px;
+    height:40px;
+    margin-left:75px;
+}
+.store *{
+    display:inline-block;
+}
+.store .own-logo{
+    border-radius: 100%;
+    width:20px;
+    height:20px;
+    background-color: green;
+    margin-top:10px;
+    margin-left:10px;
+}
+.store .text{
+   position: absolute;
+   margin-top:10px;
+    margin-left:10px;
+}
+.store .link{
+    position: absolute;
+    border-radius: 100%;
+    margin-top:8px;
+     margin-left:200px;
+     width:25px;
+     height:25px;
+     background-color:gray;
+}
+.channel{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50px;
+    padding:1px;
+    width:300px;
+    height:40px;
+    margin-left:75px;
+}
+.channel *{
+    display:inline-block;
+}
+.channel .own-logo{
+    border-radius: 100%;
+    width:20px;
+    height:20px;
+    background-color: orange;
+    margin-top:10px;
+    margin-left:10px;
+}
+.channel .text{
+   position: absolute;
+   margin-top:10px;
+    margin-left:10px;
+}
+.channel .link{
+    position: absolute;
+    border-radius: 100%;
+    margin-top:8px;
+     margin-left:200px;
+     width:25px;
+     height:25px;
+     background-color:gray;
+}
+.menu{
+    margin-top:10px;
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+}
+.menu:hover{
+ background-color: black;
+ color:white
+}
