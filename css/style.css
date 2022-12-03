@@ -1,0 +1,162 @@
+@import "reset.css";
+
+@font-face {
+    font-family: "DM Sans";
+    src: local("DM Sans"),
+    url("../fonts/DMSans-Regular.woff2") format("woff"), url("../fonts/DMSans-Regular.ttf")
+    format("truetype");
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/** { !* - вот эта штука рендерит title *!*/
+/*    display: block;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+.wrapper {
+    padding: 20px;
+}
+
+.card{
+    transition: 0.5s;
+    border-radius: 25px;
+    max-width:450px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 12px rgba(8, 15, 52, 0.05);
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+}
+
+
+.card__header {
+    /*background-color: bisque; */
+    height:140px;
+    background-image: url("../images/unsplash.png");
+    background-repeat: no-repeat;
+}
+
+.card__body {
+    padding: 20px;
+}
+
+.card__avatar{
+    border: 5px solid white;
+    margin-top: -70px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.card__avatar-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.card__name {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card__description {
+    text-align: center;
+    color: #5C6779;
+    line-height: 26px;
+}
+.social{
+    margin-left:5px;
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    background-color: gray;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.logos-list {
+    text-align: center;
+}
+
+.logos-list__item {
+    display: inline-block;
+}
+
+.own-logo{
+    border-radius: 100%;
+    width:20px;
+    height:20px;
+    background-color: bisque;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.articles{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50px;
+    padding:1px;
+    width:300px;
+    height:40px;
+    margin-left:75px;
+}
+
+.card__menu {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu__item{
+    margin-top:10px;
+    background-color: white;
+    color:black;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000;
+    transition: 0.2s;
+    box-shadow: 0 2px 7px rgba(48, 48, 50, 0.06);
+    padding: 10px 10px 10px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    background-color: black;
+    color:white
+}
+
+.menu__text {
+
+}
+
+.link-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #EFF2F7;
+    border-radius: 50%;
+
+}
